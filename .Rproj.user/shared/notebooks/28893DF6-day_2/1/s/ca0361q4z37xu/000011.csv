@@ -1,0 +1,3 @@
+"0",""
+"0","cubes_raw <- read.table(""data/day_2_input.txt"", header = FALSE, sep = "":"")"
+"0",""

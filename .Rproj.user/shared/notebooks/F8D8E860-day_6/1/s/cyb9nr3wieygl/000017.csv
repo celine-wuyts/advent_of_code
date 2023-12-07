@@ -1,0 +1,8 @@
+"0",""
+"0","time <- str_split(races_raw[1], "" "") %>% unlist()"
+"0","dist <- str_split(races_raw[2], "" "") %>% unlist()"
+"0",""
+"0","races <- tibble(time = as.numeric(setdiff(time[-1], """")), "
+"0","                dist = as.numeric(setdiff(dist[-1], """")),"
+"0","                race = seq_along(time))"
+"0",""

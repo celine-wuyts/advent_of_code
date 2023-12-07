@@ -1,0 +1,4 @@
+"0",""
+"0","scratch_matches <- scratch_nested %>% "
+"0","  mutate(matches = map2_int(.x = winning, .y = my, ~ length(intersect(.x$value, .y$value))))"
+"0",""

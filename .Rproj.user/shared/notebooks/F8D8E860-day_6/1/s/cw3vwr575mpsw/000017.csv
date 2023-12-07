@@ -1,0 +1,7 @@
+"0",""
+"0","time <- str_remove_all(races_raw[1], ""[^[:digit:]]"") %>% as.numeric()"
+"0","dist <- str_remove_all(races_raw[2], ""[^[:digit:]]"") %>% as.numeric()"
+"0",""
+"0","races <- races %>%"
+"0","  bind_rows(data.frame(time = time, dist = dist, race = nrow(races) + 1))"
+"0",""

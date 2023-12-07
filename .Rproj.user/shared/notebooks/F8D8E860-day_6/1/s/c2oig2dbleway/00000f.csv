@@ -1,0 +1,6 @@
+"0",""
+"0","races_long <- races %>%"
+"0","  mutate(button_time = map(time, ~ seq(1, .))) %>%"
+"0","  unnest(button_time) %>%"
+"0","  mutate(achieved_dist = (time - button_time) * button_time)"
+"0",""

@@ -1,0 +1,5 @@
+"0",""
+"0","almanac_raw <- read.table(""data/day_5_input_test.txt"", header = FALSE, sep = """")"
+"2","Error in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  : 
+  line 2 did not have 5 elements
+"

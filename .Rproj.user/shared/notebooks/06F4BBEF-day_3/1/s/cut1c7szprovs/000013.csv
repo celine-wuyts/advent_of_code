@@ -1,0 +1,5 @@
+"0",""
+"0","engine_string <- ""467..114.....*........35..633.......#...617*...........+.58...592...........755....$.*.....664.598.."""
+"0","engine_split  <- str_split(engine_string, pattern = """") %>% unlist()"
+"0","engine_split  <- map_chr(engine_split, ~ str_replace(., ""\\."", """"))"
+"0",""

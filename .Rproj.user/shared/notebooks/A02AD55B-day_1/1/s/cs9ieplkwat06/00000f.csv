@@ -1,0 +1,5 @@
+"0",""
+"0","replacements <- data.frame(number = 1:9)"
+"0","replacements <- replacements %>%"
+"0","  mutate(word =  xfun::numbers_to_words(number))"
+"0",""

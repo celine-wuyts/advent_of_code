@@ -1,0 +1,8 @@
+"0","engine_split  <- map_int(engine_split, ~ as.numeric(.))
+"
+"2","Warning: NAs introduced by coercion"
+"2","Warning: NAs introduced by coercion"
+"2","Warning: NAs introduced by coercion"
+"2","Warning: NAs introduced by coercion"
+"2","Warning: NAs introduced by coercion"
+"2","Warning: NAs introduced by coercion"

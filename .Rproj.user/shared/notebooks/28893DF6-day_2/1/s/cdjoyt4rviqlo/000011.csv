@@ -1,0 +1,4 @@
+"0",""
+"0","cubes_min <- cubes_min %>%"
+"0","  mutate(power = min_green * min_blue * min_red)"
+"0","  "

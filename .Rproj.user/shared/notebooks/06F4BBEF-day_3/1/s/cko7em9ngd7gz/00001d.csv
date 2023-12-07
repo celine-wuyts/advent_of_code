@@ -1,0 +1,7 @@
+"0","engine_split_is_engine_part_digit <- map_lgl(1:length(engine_split), 
+                                             ~ sum(str_detect(engine_split[determine_environment(.)], ""[:digit:]"", negate = TRUE))) > 0)
+"
+"2","Error: unexpected ')' in:
+""engine_split_is_engine_part_digit <- map_lgl(1:length(engine_split), 
+                                             ~ sum(str_detect(engine_split[determine_environment(.)], ""[:digit:]"", negate = TRUE))) > 0)""
+"

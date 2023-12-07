@@ -1,0 +1,3 @@
+"0",""
+"0","scratch_raw <- read.table(""data/day_4_input.txt"", header = FALSE, sep = """")"
+"0",""

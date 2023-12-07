@@ -1,0 +1,8 @@
+"0",""
+"0","races_long <- races_long %>%"
+"0","  mutate(won = achieved_dist > dist)"
+"0",""
+"0","races_n_won <- races_long %>%"
+"0","  count(race, won) %>%"
+"0","  filter(won)"
+"0",""

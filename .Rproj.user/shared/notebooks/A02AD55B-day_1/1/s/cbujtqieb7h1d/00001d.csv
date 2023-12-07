@@ -1,0 +1,8 @@
+"0",""
+"0","calibration_1 <- calibration_raw %>%"
+"0","  rename(text = V1) %>%"
+"0","  mutate(digits = str_replace_all(text, ""[a-z]"", """"),"
+"0","         first  = str_sub(digits, 1, 1),"
+"0","         last   = str_sub(digits, nchar(digits), nchar(digits)),"
+"0","         value  = as.numeric(paste0(first, last, sep = """")))"
+"0",""

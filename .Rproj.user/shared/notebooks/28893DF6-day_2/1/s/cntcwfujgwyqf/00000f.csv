@@ -1,0 +1,8 @@
+"0",""
+"0","cubes <- cubes %>%"
+"0","  mutate(possible = (red <= 12 & green <= 13 & blue <= 14))"
+"0",""
+"0","cubes_possible <- cubes %>%"
+"0","  group_by(game_id) %>%"
+"0","  summarize(possible = sum(possible) == length(possible))"
+"0",""

@@ -1,0 +1,5 @@
+"0",""
+"0","row_length <- 10"
+"0","symbols <- str_replace_all(engine_string, ""[:digit:]"", """") %>% str_split(pattern = """") %>% unlist() %>% unique()"
+"0","symbols <- setdiff(symbols, ""."")"
+"0",""
